@@ -1,0 +1,72 @@
+h5 {
+    text-transform: uppercase;
+}
+
+.footer-container {
+    place-content: center;
+    padding: 3rem;
+}
+
+.online-shopping-list,
+.useful-links-list,
+h5 {
+    list-style-type: none;
+    padding: 0.5rem 0;
+    margin: 0.5rem 1rem;
+}
+
+.online-shopping-list li,
+.useful-links-list li {
+    color: #696b79;
+    padding: 2px;
+}
+
+.mobile-app {
+    margin-right: 2rem;
+}
+
+.mobile-app img {
+    width: 20rem;
+    align-items: flex-start;
+    margin: 0.5rem 1rem;
+}
+
+.social-media {
+    padding: 0 1rem;
+}
+
+.social-media i {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.social-media i:hover {
+    color: #696b79;
+}
+
+.promises {
+    width: 20rem;
+}
+.orignal, .return {
+    padding: 1rem 0.5rem;
+}
+
+.orignal img,
+.return img {
+    width: 3rem;
+}
+
+footer {
+    color: #696b79;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .mobile-app h5:nth-child(1), .mobile-app img, .promises {
+        display: none;
+    }
+}
